@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <title>
+            Starbucks' Menu | Jomx Collection
+        </title>
+
+        <link rel="icon" type="image/png" href="...">
+
+        <style>
+            .EasterEgg1-card {
+                transition: 300s;
+                transition-delay: 8s;
+            }
+            .EasterEgg1-card:hover {
+                transform: scale(100);
+            }
+
+            .EasterEgg2-card {
+                transition: 10s;
+            }
+            .EasterEgg2-card:hover {
+                transform: scale(1.5); rotate: 360deg;
+            }
+
+            .starbucksCategories-card {
+                transition: 0.5s;
+            }
+            .starbucksCategories-card:hover {
+                transform: translateY(-5px) scale(1.03);
+            }
+        </style>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    </head>
+    <body style="background-color: rgb(25, 20, 18);">
+        <div class="container">
+            <div class="row pt-3 mb-3"> <!--Main banner-->
+                <div class="col">
+                    <div class="d-flex rounded-4 justify-content-center align-items-center gap-3 text-dark p-5" style="background-color: rgb(0, 45, 30);">
+                        <p class="h1" style="font-family:Impact; color:rgb(180, 180, 180)"><strong>Starbucks'</strong></p>
+                        <p class="h1 EasterEgg1-card" style="font-family:Impact; color:rgb(180, 180, 180)" onclick="EEDiscovery1()"><strong>Menu</strong></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row"> <!--Drinks title-->
+                <div class="col pt-3 mb-3">
+                    <div class="d-flex rounded-5 p-3 justify-content-center align-items-center" style="background-color: rgb(25, 40, 40); width: 200px">
+                        <p class="h1" style="color: white;"><u>Beverages</u></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center gap-4"> <!--All drinks categories-->
+                <div class="col-auto">
+                    <div class="h-100 card starbucksCategories-card rounded-4" style="width: 18rem; background-color: rgb(230, 230, 230);">
+                        <div class="row">
+                            <div class="col text-center"><img class="card-img-top rounded-circle object-fit-cover border border-3 shadow" src="../../images/foods/starbucks/categories/frappuccino.png" style="height:100px; width:100px;"></div>
+                            <div class="col text-center"><img class="card-img-top rounded-circle object-fit-cover border border-3 shadow" src="../../images/foods/starbucks/categories/blended_beverages.png" style="height:100px; width:100px;"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" style="color:rgb(0, 83, 56)">Frappuccino & Blended Beverages</h5>
+                            <p class="card-text">Treat yourself to Starbucks' famous blended beverages, bursting with flavor and sweetness!</p>
+                            <a href="frap.html" class="btn btn-outline-success" style="color: rgb(0, 83, 56)">Explore!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="h-100 card starbucksCategories-card rounded-4" style="width: 18rem; background-color: rgb(230, 230, 230);">
+                        <div class="row">
+                            <div class="col text-center"><img class="card-img-top rounded-circle object-fit-cover border border-3 shadow" src="../../images/foods/starbucks/categories/coffee.png" style="height:100px; width:100px;"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" style="color:rgb(0, 83, 56)">Coffee</h5>
+                            <p class="card-text">Fuel your day with Starbucks' iconic coffees, from rich espresso creations to refreshing cold brews!</p>
+                            <a href="coffee.html" class="btn btn-outline-success" style="color: rgb(0, 83, 56)">Fuel up!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="h-100 card starbucksCategories-card rounded-4" style="width: 18rem; background-color: rgb(230, 230, 230);">
+                        <div class="row">
+                            <div class="col text-center"><img class="card-img-top rounded-circle object-fit-cover border border-3 shadow" src="../../images/foods/starbucks/categories/tea.png" style="height:100px; width:100px;"></div>
+                            <div class="col text-center"><img class="card-img-top rounded-circle object-fit-cover border border-3 shadow" src="../../images/foods/starbucks/categories/matcha.png" style="height:100px; width:100px;"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" style="color:rgb(0, 83, 56)">Tea & Matcha</h5>
+                            <p class="card-text">Immerse yourself in Starbucks' rich selection of tea and matcha beverages, crafted for every moment of relaxation!</p>
+                            <a href="tea.html" class="btn btn-outline-success" style="color: rgb(0, 83, 56)">Unwind!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="h-100 card starbucksCategories-card rounded-4" style="width: 18rem; background-color: rgb(230, 230, 230);">
+                        <div class="row">
+                            <div class="col text-center"><img class="card-img-top rounded-circle object-fit-cover border border-3 shadow" src="../../images/foods/starbucks/categories/refreshers.png" style="height:100px; width:100px;"></div>
+                            <div class="col text-center"><img class="card-img-top rounded-circle object-fit-cover border border-3 shadow" src="../../images/foods/starbucks/categories/juice.png" style="height:100px; width:100px;"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" style="color:rgb(0, 83, 56)">Refreshers & Juice</h5>
+                            <p class="card-text">Refresh your senses with vibrant fruit-based drinks and refreshing flavors!</p>
+                            <a href="refreshers.html" class="btn btn-outline-success" style="color: rgb(0, 83, 56)">Refresh Yourself!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="h-100 card starbucksCategories-card rounded-4" style="width: 18rem; background-color: rgb(230, 230, 230);">
+                        <div class="row">
+                            <div class="col text-center"><img class="card-img-top rounded-circle object-fit-cover border border-3 shadow" src="../../images/foods/starbucks/categories/protein.png" style="height:100px; width:100px;"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" style="color:rgb(0, 83, 56)">Protein Beverages</h5>
+                            <p class="card-text">Recharge your body with protein-packed drinks crafted to support your day!</p>
+                            <a href="protein.html" class="btn btn-outline-success" style="color: rgb(0, 83, 56)">Power Up!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row"> <!--Foods title-->
+                <div class="col pt-3 mb-3">
+                    <div class="d-flex rounded-5 p-3 justify-content-center align-items-center" style="background-color: rgb(25, 40, 40); width: 200px">
+                        <p class="h1" style="color: white;"><u>Foods</u></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center gap-4 mb-3">
+                <div class="col-auto">
+                    <div class="h-100 card starbucksCategories-card rounded-4" style="width: 18rem; background-color: rgb(230, 230, 230);">
+                        <div class="row">
+                            <div class="col text-center"><img class="card-img-top rounded-circle object-fit-cover border border-3 shadow" src="../../images/foods/starbucks/categories/bakery.png" style="height:100px; width:100px;"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" style="color:rgb(0, 83, 56)">Bakery</h5>
+                            <p class="card-text">Enjoy the comforting taste of Starbucks' freshly baked pastries and sweet treats!</p>
+                            <a href="bakery.html" class="btn btn-outline-success" style="color: rgb(0, 83, 56)">Take a Bite!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="h-100 card starbucksCategories-card rounded-4" style="width: 18rem; background-color: rgb(230, 230, 230);">
+                        <div class="row">
+                            <div class="col text-center"><img class="card-img-top rounded-circle object-fit-cover border border-3 shadow" src="../../images/foods/starbucks/categories/breakfast.png" style="height:100px; width:100px;"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" style="color:rgb(0, 83, 56)">Breakfast</h5>
+                            <p class="card-text">Start your day with satisfying breakfast choices made to fuel your morning!</p>
+                            <a href="breakfast.html" class="btn btn-outline-success" style="color: rgb(0, 83, 56)">Rise & Shine!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="h-100 card starbucksCategories-card rounded-4" style="width: 18rem; background-color: rgb(230, 230, 230);">
+                        <div class="row">
+                            <div class="col text-center"><img class="card-img-top rounded-circle object-fit-cover border border-3 shadow" src="../../images/foods/starbucks/categories/sandwiches.png" style="height:100px; width:100px;"></div>
+                            <div class="col text-center EasterEgg2-card"><img class="card-img-top rounded-circle object-fit-cover border border-3 shadow" src="../../images/foods/starbucks/categories/wraps.png" style="height:100px; width:100px;" onclick="EEDiscovery2()"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" style="color:rgb(0, 83, 56)">Sandwiches & Wraps</h5>
+                            <p class="card-text">Satisfy your appetite with flavorful sandwiches and wraps prepared for any time of day!</p>
+                            <a href="sandwiches.html" class="btn btn-outline-success" style="color: rgb(0, 83, 56)">Dig In!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="h-100 card starbucksCategories-card rounded-4" style="width: 18rem; background-color: rgb(230, 230, 230);">
+                        <div class="row">
+                            <div class="col text-center"><img class="card-img-top rounded-circle object-fit-cover border border-3 shadow" src="../../images/foods/starbucks/categories/desserts.png" style="height:100px; width:100px;"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" style="color:rgb(0, 83, 56)">Desserts</h5>
+                            <p class="card-text">Indulge yourself with delightful desserts and sweet creations that complete every visit!</p>
+                            <a href="desserts.html" class="btn btn-outline-success" style="color: rgb(0, 83, 56)">Sweeten Up!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="h-100 card starbucksCategories-card rounded-4" style="width: 18rem; background-color: rgb(230, 230, 230);">
+                        <div class="row">
+                            <div class="col text-center"><img class="card-img-top rounded-circle object-fit-cover border border-3 shadow" src="../../images/foods/starbucks/categories/salads.png" style="height:100px; width:100px;"></div>
+                            <div class="col text-center"><img class="card-img-top rounded-circle object-fit-cover border border-3 shadow" src="../../images/foods/starbucks/categories/light_bites.png" style="height:100px; width:100px;"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" style="color:rgb(0, 83, 56)">Salads & Light Bites</h5>
+                            <p class="card-text">Refresh your palate with light and wholesome options crafted for a balanced meal!</p>
+                            <a href="salads.html" class="btn btn-outline-success" style="color: rgb(0, 83, 56)">Stay Fresh!</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="h-100 card starbucksCategories-card rounded-4" style="width: 18rem; background-color: rgb(230, 230, 230);">
+                        <div class="row">
+                            <div class="col text-center"><img class="card-img-top rounded-circle object-fit-cover border border-3 shadow" src="../../images/foods/starbucks/categories/seasonal.png" style="height:100px; width:100px;"></div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title" style="color:rgb(0, 83, 56)">Seasonal Specials</h5>
+                            <p class="card-text">Celebrate the season with limited-time favorites and special creations!</p>
+                            <a href="seasonal.html" class="btn btn-outline-success" style="color: rgb(0, 83, 56)">See What's New!</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            function EEDiscovery1(){
+                alert("Congratulations on discovering our 1st Easter Egg! 🎉🎊🍾                  If you didn't discover then please hover for 8 seconds")
+            }
+
+            function EEDiscovery2(){
+                alert("Congratulations on discovering our 2nd Easter Egg! 🎉🎊🍾")
+            }
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <div class="btn-group" style="position: fixed; bottom: 10px; right: 10px" role="group" aria-label="Basic example">
+            <a href="home.html" class="btn border" style="background-color: rgb(0, 45, 30); color: rgb(230, 230, 230);">Starbucks</a>
+            <a href="../../index.html" class="btn btn-outline-success border" style="color: white">Home</a>
+        </div>
+    </body>
+    <footer class="text-center text-secondary p-4">
+        JomX Collection © 2026
+        <br>
+        Created for learning purposes.
+    </footer>
+</html>
